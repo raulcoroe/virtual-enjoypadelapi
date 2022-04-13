@@ -1,13 +1,13 @@
 {
   "request": {
-    "method": "GET",
-    "url": "/players"
+    "method": "PUT",
+    "urlPattern": "/player/([0-9]*)"
   },
   "response": {
     "status": 200,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "getPlayers-ok.json"
+    "bodyFileName": "players/putPlayer-OK.json"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/center/([0-9]*)",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{  \"longitude\": -0.545665156846654,  \"latitude\": -0.3242146515684665}",
+        "jsonCompareMode": "STRICT"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "centers/putCenter-KO-400.json"
+  }
+}

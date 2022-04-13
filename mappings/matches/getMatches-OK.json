@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/matches"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "matches/getMatches-OK.json"
+  }
+}

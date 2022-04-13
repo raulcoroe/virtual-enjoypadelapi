@@ -2,13 +2,13 @@
   "priority": 1,
   "request": {
     "method": "DELETE",
-    "url": "/player/25"
+    "url": "/center/25"
   },
   "response": {
     "status": 404,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "deletePlayer-ko.json"
+    "bodyFileName": "centers/deleteCenter-KO-404.json"
   }
 }

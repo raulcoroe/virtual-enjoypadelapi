@@ -1,13 +1,13 @@
 {
   "request": {
-    "method": "POST",
+    "method": "GET",
     "url": "/players"
   },
   "response": {
-    "status": 201,
+    "status": 200,
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "postPlayers-ok.json"
+    "bodyFileName": "players/getPlayers-OK.json"
   }
 }

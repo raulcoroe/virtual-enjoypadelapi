@@ -1,0 +1,47 @@
+{
+  "id": 1,
+  "round": "Ronda 1",
+  "duration": 60,
+  "date": "11/04/2022",
+  "matchScore": "6-2, 6-4",
+  "players": [
+    {
+      "id": 1,
+      "name": "Raul",
+      "surname": "Martin",
+      "level": "Alto",
+      "availability": true,
+      "image": null
+    },
+    {
+      "id": 2,
+      "name": "Otro",
+      "surname": "Jugador",
+      "level": "Alto",
+      "availability": true,
+      "image": null
+    },
+    {
+      "id": 3,
+      "name": "Manolo",
+      "surname": "Hernandez",
+      "level": "Alto",
+      "availability": true,
+      "image": null
+    },
+    {
+      "id": 4,
+      "name": "Pascual",
+      "surname": "Garcia",
+      "level": "Bajo",
+      "availability": true,
+      "image": null
+    }
+  ],
+  "center": {
+    "id": 1,
+    "name": "Padel Club",
+    "longitude": -0.545665156846654,
+    "latitude": -0.3242146515684665
+  }
+}

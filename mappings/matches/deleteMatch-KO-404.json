@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "DELETE",
+    "url": "/match/25"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "matches/deleteMatch-KO-404.json"
+  }
+}

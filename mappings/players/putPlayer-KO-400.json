@@ -1,12 +1,12 @@
 {
   "priority": 1,
   "request": {
-    "method": "POST",
-    "url": "/players",
+    "method": "PUT",
+    "urlPattern": "/player/([0-9]*)",
     "bodyPatterns": [
       {
         "equalToJson": "{  \"surname\": \"Martin\",  \"level\": \"Alto\",  \"available\": true,  \"image\": null}",
-        "jsonCompareMode": "LOW"
+        "jsonCompareMode": "STRICT"
       }
     ]
   },
@@ -15,6 +15,6 @@
     "headers": {
       "Content-Type": "application/json"
     },
-    "bodyFileName": "postPlayers-ko.json"
+    "bodyFileName": "players/putPlayer-KO-400.json"
   }
 }

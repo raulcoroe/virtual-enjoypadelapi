@@ -1,0 +1,20 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/centers",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{  \"longitude\": -0.545665156846654,  \"latitude\": -0.3242146515684665}",
+        "jsonCompareMode": "STRICT"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "centers/postCenters-KO-400.json"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "POST",
+    "url": "/matches",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{  \"duration\": 60,  \"date\": \"12/04/2022\",  \"matchScore\": \"6-2, 6-4\",  \"player1\": 1,  \"player2\": 2,  \"player3\": 3,  \"player4\": 4,  \"center\": 1}",
+        "jsonCompareMode": "STRICT"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "matches/postMatches-KO-400.json"
+  }
+}

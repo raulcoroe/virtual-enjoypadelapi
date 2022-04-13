@@ -6,5 +6,13 @@
     "level": "Alto",
     "availability": true,
     "image": null
+  },
+  {
+    "id": 2,
+    "name": "Otro",
+    "surname": "Jugador",
+    "level": "Alto",
+    "availability": false,
+    "image": null
   }
 ]
